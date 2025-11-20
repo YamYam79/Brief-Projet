@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="meteo.js" defer></script>
+    <title>Météo</title>
+</head>
+<body>
+    <div class="card">
+        <div class="weather loading">
+            <h2 class="city"></h2>
+            <h1 class="temp"></h1>
+            <div class="flex">
+                <img src="https://openweathermap.org/img/wn/02n.png" class="icon"></img>
+                <div class="description"></div>
+            </div>
+            <div class="humidity"></div>
+        </div>
+    </div>
+</body>
+</html>
